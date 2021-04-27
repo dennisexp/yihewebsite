@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* author Mr Jack */
+
+@media only screen and (max-width: 1024px) {
+   .new_header,.headerinner,.chanpin,.chanpininner,.container,.indexfaan,.content-top,.userList,.content-bottom,.footer{display:none;}
+   #team-section,#blog-section,#fwslider{display:none;}
+}
+
+/*logo banner*/
+.new_header .header_2 {
+    overflow: hidden;
+    height: 100px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.new_header .header_2 a img {
+    margin-top: 20px;
+    float: left;
+    display: inline-block;
+    border: none;
+    height:auto;
+}
+.new_header .small_icon {
+    margin-top: 20px;
+    float: right;
+}
+.new_header .small_icon span {
+    font-size: 12px;
+    margin-left: 30px;
+    color: #38363e;
+    text-align: center;
+    float: left;
+}
+
+.list_nav{height:40px; line-height:40px; background:#333366;width:100%; min-width: 1200px;}
+.list_nav .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.list_nav .l_nav{ padding:0 10px; height:40px; line-height:40px; background:#333366;  position:relative; width:1024px;margin:0 auto;z-index:99999;  }
+.list_nav .l_nav a{ color:#fff;  }
+.list_nav .l_nav .nLi{ float:left;  position:relative; display:inline;  }
+.list_nav .l_nav .nLi h3{ float:left;  }
+.list_nav .l_nav .nLi h3 a{ display:block; padding:0 30px; font-size:16px;  }
+.list_nav .l_nav .on h3 a{ background:#ff6600; color:#fff;   }
+
+.head_bg {  position: absolute; z-index: 1000; width:100%;height:100px;}
+.head_bginner { width:1200px;margin:0 auto;height:110px; }
+
+/*footer*/
+.footer { background: #0f1014; padding-bottom: 20px; min-width: 1200px;}
+.footer-inner { padding-top: 50px; width: 100%;}
+.footer-info {width:85%;max-width: 1400px;}
+.footer-nav { float: right; position: relative; overflow: hidden;font-size: 14px;} 
+.footer-nav .grid_3 { float: left; margin-right: 15px }
+.footer-nav .grid_3 .items { width: 300px }
+.footer-nav .grid_3 .liHeader { color:#ffffff; font-size: 20px; height: 40px ;border-bottom: 2px solid #ccc;}
+.footer-nav .items li { margin-bottom: 6px }
+.footer-nav .items li.contact_us { height: 40px }
+.footer-nav .items li.contact_us span { display: block; float: left; position: relative; overflow: hidden;}
+.footer-nav .items li.contact_us span.icon_phone {background: url("../images/icon_phone.png") 0 8px/26px auto no-repeat;width: 26px;height: 35px; }
+.footer-nav .items li.contact_us span.icon_mail {background: url("../images/icon_mail.png") 0 8px/26px auto no-repeat;width: 26px; height: 35px;}
+.footer-nav .items li.contact_us span.icon_add {background: url("../images/icon_add.png") 0 8px/26px auto no-repeat;width: 26px; height: 35px;}
+.footer-nav .items li.contact_us div { padding-top: 0px; clear: none; text-align: left; padding-left: 10px; width: 260px; display: block; float: left; font-size: 14px; color: #999; position: relative; overflow: hidden }
+.footer-nav .items li.contact_us div span { font-size: 14px; display: block; float: none }
+.footer-nav .items li.contact_us div font { display: block;color: #999; }
+.footer-nav .items li.contact_us img { width: 26px }
+.footer-nav .items li span { color: #999; font-size: 16px }
+.footer-nav .items a { color: #999 }
+.footer-inner span a {color: #999 }
+.footer-nav .items a:hover { color: #1f8dd6 }
+
+.footer p { clear: both; padding-top: 65px; text-align: center;color:#999;  font-size: 14px }
